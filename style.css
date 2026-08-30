@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --mainColor:rgb(34, 66, 72);
+    --secondColor:rgb(255, 154, 0);
+    --hoverColor:rgb(68, 161, 164);
+}
+
+/* header section */
+.header{
+    height: 100vh;
+    background-image: url('../X-four/pexels-anna-nekrashevich-8532616.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.header .overlay{
+    height: 100vh;
+    background-color: rgba(138, 106, 54, 0.304);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.header .overlay p{
+    font-size: 60px;
+    font-weight: bold;
+    color:var(--secondColor) ;
+    margin-bottom: 30px;
+}
+.header .overlay a{
+    text-decoration: none;
+    background-color: var(--mainColor);
+    color: var(--secondColor);
+    padding: 15px 20px;
+    width: 200px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 20px;
+    align-self: center;
+    transition: all 2s;
+}
+.header .overlay a:hover{
+    transform: scale(1.2);
+    background-color: var(--secondColor);
+    color: var(--mainColor);
+}
+@media screen and (max-width:700px) {
+.header .overlay p{
+    font-size: 45px;
+}
+.header .overlay a{
+    padding: 10px 15px;
+    width: 180px;
+}
+
+}
