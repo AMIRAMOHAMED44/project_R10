@@ -12,7 +12,7 @@
 /* header section */
 .header{
     height: 100vh;
-    background-image: url('../X-four/pexels-anna-nekrashevich-8532616.jpg');
+    background-image: url('pexels-anna-nekrashevich-8532616.jpg');
     background-position: center;
     background-size: cover;
 }
